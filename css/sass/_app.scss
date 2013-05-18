@@ -1,1 +1,16 @@
-body{ margin: 0; padding: 0; }
+body{ margin: 0; padding: 0; background-color:#111;  color: white; font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; font-weight: 300; }
+
+h1, h2, h3{ margin: 0; padding: 0; text-shadow: 0px 1px 4px rgba(black, 0.4);  }
+
+h1{ font-size: 72px; }
+h2{ font-size: 48px; }
+h3{ font-size: 28px; }
+
+#photo_container{ width: 100%; position: fixed; left: 0; top: 0; z-index: 1; background-size: 100% auto; background-repeat: no-repeat; background-position: center center; }
+
+#title{ position: fixed; bottom: 200px; left: 100px; z-index: 2; }
+
+#other_pics{ position: fixed; z-index: 5; left: 0; bottom: 0; width: 100%; height: 100px; margin: 0; padding: 0; overflow: hidden; 
+	li{ list-style: none; float: left; height: 100px; width: 150px; background-repeat: no-repeat;  background-size: 100% auto;   }
+		
+}
