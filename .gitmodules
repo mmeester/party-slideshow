@@ -1,0 +1,6 @@
+[submodule "include/libraries/facebook-php-sdk"]
+	path = include/libraries/facebook-php-sdk
+	url = git@github.com:facebook/facebook-php-sdk.git
+[submodule "include/libraries/facebook"]
+	path = include/libraries/facebook
+	url = git@github.com:facebook/facebook-php-sdk.git
